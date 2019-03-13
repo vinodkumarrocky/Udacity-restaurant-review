@@ -9,7 +9,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
   //  const port = 8000 // Change this to your server port
-    return `restaurants.json`;
+    return `../js/restaurants.json`;
   }
 
   /**
@@ -150,7 +150,7 @@ class DBHelper {
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
-    return (`/img/${restaurant.photograph}`);
+    return (`/js/${restaurant.photograph}`);
   }
 
   /**
