@@ -150,7 +150,7 @@ class DBHelper {
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
-    return (`/Udacity-restaurant-review/js/${restaurant.photograph}`);
+    return (`Udacity-restaurant-review/js/${restaurant.photograph}`);
   }
 
   /**
